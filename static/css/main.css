@@ -1,0 +1,44 @@
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  
+  }
+  body{
+    margin: 0px;
+  }
+    .bg-purple {
+      height: 70px;
+      line-height: 70px;
+      text-align: left;
+      color: white;
+      padding-left: 20px;
+    }
+    .bg-purple-light {
+      height: 70px;
+      text-align: right;
+          color: white;
+            line-height: 70px;
+             padding-right: 20px;
+    }
+    .el-menu{
+      border: 0px;
+  
+    }
+    .el-breadcrumb{
+        margin-bottom: 20px;
+    }
+    .el-breadcrumb__item__inner{
+        color: #48576a;
+    }
+    .el-breadcrumb__inner{
+color: #97a8be;
+font-size: 13px;
+    }
+    .seach{
+        margin-bottom: 20px;
+    }
+    .el-pagination{
+        float: right;
+    }
