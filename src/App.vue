@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+<div id="app">
     <el-container>
   <el-header style="height: 70px;background: #242f42;padding:0px;">
 <el-row type="flex" class="row-bg" justify="space-between">
@@ -8,17 +8,18 @@
 </el-row>
   </el-header>
   <el-container>
-    <el-aside style="width:250px;background:#2e363f;">  
+    <el-aside style="width:250px;height:705px;background:#324157;">
       <el-row class="tac">
   <el-col>
         <el-menu
+        router
       default-active="2"
       class="el-menu-vertical-demo"
       @open="handleOpen"
       @close="handleClose"
-      background-color="#545c64"
+      background-color="#324157"
       text-color="#fff"
-      active-text-color="#ffd04b">
+      >
         <el-menu-item index="2">
         <i class="el-icon-menu"></i>
         <span slot="title">自述</span>
@@ -29,8 +30,8 @@
           <span>表格</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="1-1">基础表格</el-menu-item>
-          <el-menu-item index="1-2">vue表格组件</el-menu-item>
+          <el-menu-item index="1-1" route="/base">基础表格</el-menu-item>
+          <el-menu-item index="1-2" route="/main">vue表格组件</el-menu-item>
         </el-menu-item-group>
 
       </el-submenu>
@@ -40,10 +41,10 @@
           <span>表单</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="1-1">基本表单</el-menu-item>
-          <el-menu-item index="1-2">编辑器</el-menu-item>
-          <el-menu-item index="1-3">markdown</el-menu-item>
-          <el-menu-item index="1-4">文件上传</el-menu-item>
+          <el-menu-item index="1-1" >基本表单</el-menu-item>
+          <el-menu-item index="1-2" >编辑器</el-menu-item>
+          <el-menu-item index="1-3" >markdown</el-menu-item>
+          <el-menu-item index="1-4" >文件上传</el-menu-item>
         </el-menu-item-group>
 
       </el-submenu>
@@ -57,26 +58,10 @@
       </el-menu-item>
     </el-menu>
   </el-col>
-
 </el-row>
     </el-aside>
     <el-main><router-view/></el-main>
   </el-container>
 </el-container>
-    
-  </div>
+</div>
 </template>
-
-
-
-
-
-
-
-<script>
-export default {
-  name: "App"
-};
-</script>
-
-

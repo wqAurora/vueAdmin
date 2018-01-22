@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Main from '@/components/Main'
 import Base from '@/components/Base'
+import Basis from '@/components/Basis'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/base',
       name: 'base',
       component: Base
+    },
+    {
+      path: '/basis',
+      name: 'basis',
+      component: Basis
     }
   ]
 })

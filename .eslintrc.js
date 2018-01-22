@@ -7,6 +7,7 @@ module.exports = {
   },
   env: {
     browser: true,
+    
   },
   extends: [
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
@@ -23,6 +24,13 @@ module.exports = {
   rules: {
     // allow async-await
     'generator-star-spacing': 'off',
+    //关闭额外的分号检查
+        //0:关闭，1:警告，2:异常
+        // "semi": 0,
+        "space-before-function-paren": ["error", "never"],
+      
+    
+        // "quotes":0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }

@@ -1,5 +1,5 @@
 #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: Helvetica Neue,Helvetica,microsoft yahei,arial,STHeiTi,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
@@ -18,9 +18,9 @@
     .bg-purple-light {
       height: 70px;
       text-align: right;
-          color: white;
-            line-height: 70px;
-             padding-right: 20px;
+      color: white;
+      line-height: 70px;
+      padding-right: 20px;
     }
     .el-menu{
       border: 0px;
@@ -33,8 +33,8 @@
         color: #48576a;
     }
     .el-breadcrumb__inner{
-color: #97a8be;
-font-size: 13px;
+    color: #97a8be;
+    font-size: 13px;
     }
     .seach{
         margin-bottom: 20px;
@@ -42,3 +42,69 @@ font-size: 13px;
     .el-pagination{
         float: right;
     }
+    .el-table thead{
+        color: #1f2d3d;
+    }
+    tbody {
+        color: #1f2d3d;
+        font-size: 14px;
+    }
+    .el-table th, .el-table thead{
+        background: #eef1f6;
+    }
+    .el-table--border{
+border-left: 0px;
+    }
+    .el-table--border, .el-table--group{
+        border: 1px solid #dfe6ec;
+    }
+    .el-table td, .el-table th{
+        padding: 0px;
+    }
+    .el-table th>.cell{
+        height: 30px;
+    }
+    .el-table th, .el-table tr{
+        height: 40px;
+    }
+    .cell{
+        padding-left: 18px;
+    }
+    .el-table .cell{
+        line-height: 32px;
+        height: 32px;
+    }
+  /* two */
+  .el-input{
+      width: 42%;
+  }
+  .el-popper{
+    min-width: 89px;
+    top: 155px;
+  }
+  .seachs{
+    width: 12%;
+  }
+  .scren{
+      display: flex;
+  }
+  .screen{
+      flex: 2;
+      width: 70%;
+  }
+  .screen right{
+      width: 30%;
+  }
+  .seachs{
+      width: 200px;
+      float: left;
+      margin-right: 10px;
+  }
+  .sea{
+      float: right;
+  }
+  .el-button--primary{
+    background-color: #3097d1;
+    border-color: #2a88bd;
+  }
+
