@@ -17,7 +17,7 @@
       <el-option v-for="item in options" :key="item.value" :label="item.label" :value="item.value">
 </el-option>
      </el-select>
-     <el-select v-model="value9" multiple="" filterable="" remote="" reserve-keyword="" placeholder="请输入关键词">
+     <el-select multiple="" filterable="" remote="" reserve-keyword="" placeholder="请输入关键词">
       <el-option v-for="item in options4" :key="item.value" :label="item.label" :value="item.value">
       </el-option><el-option v-for="item in options4" :key="item.value" :label="item.label" :value="item.value"></el-option>
 </el-select>

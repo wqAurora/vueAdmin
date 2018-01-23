@@ -73,38 +73,51 @@ border-left: 0px;
     .el-table .cell{
         line-height: 32px;
         height: 32px;
+    
     }
   /* two */
-  .el-input{
-      width: 42%;
-  }
-  .el-popper{
-    min-width: 89px;
-    top: 155px;
-  }
-  .seachs{
-    width: 12%;
-  }
+
   .scren{
+      height: 50px;
       display: flex;
   }
   .screen{
+    height: 50px;
       flex: 2;
       width: 70%;
   }
   .screen right{
+    height: 50px;
       width: 30%;
   }
-  .seachs{
-      width: 200px;
-      float: left;
-      margin-right: 10px;
-  }
+  
   .sea{
       float: right;
   }
-  .el-button--primary{
+  /* .el-button--primary{
     background-color: #3097d1;
     border-color: #2a88bd;
-  }
+  } */
 
+  .seachs{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.el-table--enable-row-transition{
+    text-align: center;
+}
+.el-table th>.cell{
+    text-align: center;
+}
+.site{
+    text-align: none;
+}
+
+/* three */
+.surface{
+    width: 45%;
+}
+.el-col-2{
+    text-align: center;
+}

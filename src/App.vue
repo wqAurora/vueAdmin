@@ -15,8 +15,6 @@
         router
       default-active="2"
       class="el-menu-vertical-demo"
-      @open="handleOpen"
-      @close="handleClose"
       background-color="#324157"
       text-color="#fff"
       >
@@ -31,7 +29,7 @@
         </template>
         <el-menu-item-group>
           <el-menu-item index="1-1" route="/base">基础表格</el-menu-item>
-          <el-menu-item index="1-2" route="/main">vue表格组件</el-menu-item>
+          <el-menu-item index="1-2" route="/basis">vue表格组件</el-menu-item>
         </el-menu-item-group>
 
       </el-submenu>
@@ -41,7 +39,7 @@
           <span>表单</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="1-1" >基本表单</el-menu-item>
+          <el-menu-item index="1-1" route="/essential">基本表单</el-menu-item>
           <el-menu-item index="1-2" >编辑器</el-menu-item>
           <el-menu-item index="1-3" >markdown</el-menu-item>
           <el-menu-item index="1-4" >文件上传</el-menu-item>
