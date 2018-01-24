@@ -121,3 +121,8 @@ border-left: 0px;
 .el-col-2{
     text-align: center;
 }
+
+/* papers */
+.list-wrap{
+    width: 360px;
+}

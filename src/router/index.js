@@ -1,10 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Main from '@/components/Main'
-import Base from '@/components/Base'
-import Basis from '@/components/Basis'
-import Essential from '@/components/Essential'
+import HelloWorld from '@/components/page/HelloWorld'
+import Main from '@/components/page/Main'
+import Base from '@/components/page/Base'
+import Basis from '@/components/page/Basis'
+import Essential from '@/components/page/Essential'
+import Papers from '@/components/page/Papers'
+import Editor from '@/components/page/Editor'
+
 
 Vue.use(Router)
 
@@ -34,6 +37,16 @@ export default new Router({
       path: '/essential',
       name: 'essential',
       component: Essential
+    },    
+    {
+      path: '/papers',
+      name: 'papers',
+      component: Papers
+    },
+    {
+      path: '/editor',
+      name: 'editor',
+      component: Editor
     }
   ]
 })

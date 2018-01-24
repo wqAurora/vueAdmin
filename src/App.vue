@@ -40,9 +40,9 @@
         </template>
         <el-menu-item-group>
           <el-menu-item index="1-1" route="/essential">基本表单</el-menu-item>
-          <el-menu-item index="1-2" >编辑器</el-menu-item>
+          <el-menu-item index="1-2" route="/editor">编辑器</el-menu-item>
           <el-menu-item index="1-3" >markdown</el-menu-item>
-          <el-menu-item index="1-4" >文件上传</el-menu-item>
+          <el-menu-item index="1-4" route="/papers">文件上传</el-menu-item>
         </el-menu-item-group>
 
       </el-submenu>
